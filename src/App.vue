@@ -1,13 +1,13 @@
-<template>
-    <div>
-
-    </div>
-</template>
-
 <script setup>
+    import MainLayout from './views/MainLayout.vue';
+</script> 
+<template>
+    
+    <router-view/>
+    
+    <MainLayout/>
+</template>
+ 
 
-</script>
-
-<style lang="scss" scoped>
-
+<style scoped>
 </style>
